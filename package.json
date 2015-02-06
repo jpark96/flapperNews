@@ -1,0 +1,28 @@
+{
+  "name": "flapperNews",
+  "version": "1.0.0",
+  "description": "Social Media Site that contains posts and a platform for upvoting.",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt nodeunit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpark96/flapperNews.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Jin Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpark96/flapperNews/issues"
+  },
+  "homepage": "https://github.com/jpark96/flapperNews",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.22"
+  }
+}
